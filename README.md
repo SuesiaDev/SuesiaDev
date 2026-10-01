@@ -1,3 +1,3 @@
 <div align="center">
-  <img width="33%" src="https://tenor.com/pt-BR/view/hacker-meme-hacker-hacker-icon-gamer-nekro-mongas-gif-24894538.gif" alt="Developer Laptop">
+  <img width="33%" src="https://imgur.com/a/1WCvz4Q.png" alt="Developer Laptop">
 </div>
