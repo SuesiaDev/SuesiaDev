@@ -1,0 +1,205 @@
+<svg width="900" height="420" viewBox="0 0 900 420"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Terminal Window -->
+  <rect width="900" height="420" rx="10" fill="#050505"/>
+
+  <!-- Top Bar -->
+  <rect width="900" height="38" rx="10" fill="#111111"/>
+
+  <!-- Window Buttons -->
+  <circle cx="20" cy="19" r="6" fill="#777777"/>
+  <circle cx="40" cy="19" r="6" fill="#555555"/>
+  <circle cx="60" cy="19" r="6" fill="#333333"/>
+
+  <!-- Terminal Title -->
+  <text x="450" y="24"
+        text-anchor="middle"
+        fill="#bdbdbd"
+        font-family="monospace"
+        font-size="13">
+    kali@arthur: ~
+  </text>
+
+
+  <!-- ========================= -->
+  <!-- COMMAND 1 -->
+  <!-- ========================= -->
+
+  <g opacity="0">
+
+    <text x="25" y="72"
+          font-family="monospace"
+          font-size="16">
+      <tspan fill="#5DADE2">kali@arthur</tspan>
+      <tspan fill="#FFFFFF">:~$ whoami</tspan>
+    </text>
+
+    <text x="25" y="96"
+          fill="#BDBDBD"
+          font-family="monospace"
+          font-size="15">
+      Arthur Vargas
+    </text>
+
+    <animate attributeName="opacity"
+             from="0"
+             to="1"
+             begin="0.5s"
+             dur="0.5s"
+             fill="freeze"/>
+  </g>
+
+
+  <!-- ========================= -->
+  <!-- COMMAND 2 -->
+  <!-- ========================= -->
+
+  <g opacity="0">
+
+    <text x="25" y="132"
+          font-family="monospace"
+          font-size="16">
+      <tspan fill="#5DADE2">kali@arthur</tspan>
+      <tspan fill="#FFFFFF">:~$ uname -a</tspan>
+    </text>
+
+    <text x="25" y="156"
+          fill="#BDBDBD"
+          font-family="monospace"
+          font-size="14">
+      Linux arthur 6.x x86_64 GNU/Linux
+    </text>
+
+    <animate attributeName="opacity"
+             from="0"
+             to="1"
+             begin="1.7s"
+             dur="0.5s"
+             fill="freeze"/>
+  </g>
+
+
+  <!-- ========================= -->
+  <!-- COMMAND 3 -->
+  <!-- ========================= -->
+
+  <g opacity="0">
+
+    <text x="25" y="192"
+          font-family="monospace"
+          font-size="16">
+      <tspan fill="#5DADE2">kali@arthur</tspan>
+      <tspan fill="#FFFFFF">:~$ ls</tspan>
+    </text>
+
+    <text x="25" y="216"
+          font-family="monospace"
+          font-size="14">
+      <tspan fill="#5DADE2">cybersecurity/</tspan>
+      <tspan fill="#5DADE2">   development/</tspan>
+      <tspan fill="#5DADE2">   ai/</tspan>
+      <tspan fill="#5DADE2">   projects/</tspan>
+    </text>
+
+    <animate attributeName="opacity"
+             from="0"
+             to="1"
+             begin="3s"
+             dur="0.5s"
+             fill="freeze"/>
+  </g>
+
+
+  <!-- ========================= -->
+  <!-- COMMAND 4 -->
+  <!-- ========================= -->
+
+  <g opacity="0">
+
+    <text x="25" y="252"
+          font-family="monospace"
+          font-size="16">
+      <tspan fill="#5DADE2">kali@arthur</tspan>
+      <tspan fill="#FFFFFF">:~$ cat skills.txt</tspan>
+    </text>
+
+    <text x="25" y="276"
+          fill="#BDBDBD"
+          font-family="monospace"
+          font-size="14">
+      Cybersecurity
+    </text>
+
+    <text x="25" y="297"
+          fill="#BDBDBD"
+          font-family="monospace"
+          font-size="14">
+      Software Development
+    </text>
+
+    <text x="25" y="318"
+          fill="#BDBDBD"
+          font-family="monospace"
+          font-size="14">
+      AI &amp; Automation
+    </text>
+
+    <animate attributeName="opacity"
+             from="0"
+             to="1"
+             begin="4.3s"
+             dur="0.6s"
+             fill="freeze"/>
+  </g>
+
+
+  <!-- ========================= -->
+  <!-- FINAL COMMAND -->
+  <!-- ========================= -->
+
+  <g opacity="0">
+
+    <text x="25" y="354"
+          font-family="monospace"
+          font-size="16">
+      <tspan fill="#5DADE2">kali@arthur</tspan>
+      <tspan fill="#FFFFFF">:~$ ./arthur.sh</tspan>
+    </text>
+
+    <text x="25" y="378"
+          font-family="monospace"
+          font-size="14">
+      <tspan fill="#5DADE2">[✓]</tspan>
+      <tspan fill="#BDBDBD"> Initializing system...</tspan>
+    </text>
+
+    <animate attributeName="opacity"
+             from="0"
+             to="1"
+             begin="6s"
+             dur="0.6s"
+             fill="freeze"/>
+
+  </g>
+
+
+  <!-- ========================= -->
+  <!-- BLINKING CURSOR -->
+  <!-- ========================= -->
+
+  <rect x="300"
+        y="363"
+        width="9"
+        height="17"
+        fill="#FFFFFF">
+
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="0.9s"
+             begin="6.7s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+</svg>
