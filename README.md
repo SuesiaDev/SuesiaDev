@@ -11,3 +11,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SuesiaDev&layout=compact&hide_border=true&bg_color=000000&title_color=FFFFFF&text_color=FFFFFF" height="180"/>
 </p>
 
+<p align="center">
+  <img
+    src="./assets/terminal.svg"
+    width="850"
+    alt="Kali Linux style terminal"
+  />
+</p>
