@@ -1,4 +1,3 @@
-
- <p align="center">
-  <img width="33%" src="pscolinux.png">
+<p align="center">
+  <img width="33%" src="./psicolinux.png">
 </p>
